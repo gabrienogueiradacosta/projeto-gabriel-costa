@@ -95,7 +95,7 @@ form {
     justify-content: center;
 }
 
-form label{
+form label {
     margin-top: 8px;
 }
 
@@ -107,7 +107,7 @@ form input {
     border-radius: 10px;
 }
 
-form button{
+form button {
     margin-top: 30px;
     background-color: #e6005a;
     color: white;
@@ -118,4 +118,61 @@ form button{
     border: 0;
     border-radius: 5px;
     cursor: pointer;
+}
+
+.mvv {
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_mvv {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.imagem_site {
+    width: 150px;
+}
+
+.missao {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 170px;
+}
+
+.visao {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 170px;
+}
+
+.valores {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 170px;
+}
+
+h3 {
+    color: #e6005a;
+}
+
+.card_cadastro {
+    background-color: #e5e5e5e5;
+    color: #e6005a;
+    width: 400px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
