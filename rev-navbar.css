@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    background-color: gray;
+}
+
+.header_nav {
+    border-bottom: 2px solid red;
+    background-color: aqua;
+   
+}
+
+.container_nav {
+    
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 70px auto;
+}
+
+.navbar_ul{
+    display: flex;
+    padding: 0%;
+    list-style: none;
+    width: 300px;
+    justify-content: space-between;
+    align-items: center;
+}
